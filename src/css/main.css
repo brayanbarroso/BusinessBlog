@@ -1,0 +1,31 @@
+:root {
+  --title: #111729;
+  --text: #4a5567;
+  --bg: #f2f5f9;
+  --card: #ffffff;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  font-style: normal;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  border: 1px solid red;
+  border-radius: 16px;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.card {
+}
+
+

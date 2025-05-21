@@ -1,0 +1,63 @@
+---
+import "../css/main.css";
+
+const title = "Business Blog Card";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/ico" href="./image/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title}</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="card">
+        <div class="card-header">
+          <img
+            src="./image/hero-image-1.jpg"
+            alt="Hero Image"
+            class="hero-image"
+          />
+        </div>
+        <div class="card-image">
+          <img src="./image/white-overlay.svg" alt="imagen de fondo tarjeta" />
+        </div>
+        <div class="card-body">
+          <h1>Perfect solution for small business</h1>
+          <p>
+            Small businesses need to generate leads to grow. You can use tools
+            like Ringy.
+          </p>
+        </div>
+        <div class="card-footer">
+          <div class="avatar">
+            <img src="./image/avatar-image-business-card.png" alt="" />
+          </div>
+          <div class="description-avatar">
+            <p>Amy Burgess</p>
+            <p>Customer Manger, Solution Oy</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="author-info">
+        Coded by <a href="#">Your Name Here</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+          >devChallenges.io</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
