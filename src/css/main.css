@@ -40,7 +40,8 @@ hr {
 
   display: block;
   margin: 0 auto;
-  margin-block: 40px;
+  margin-block-end: 32px;
+  margin-block-start: 140px;
   max-width: 418px;
 }
 
@@ -97,4 +98,21 @@ hr {
 
 .description-avatar h2 {
   font-size: 1rem;
+}
+
+footer {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.author-info {
+  color: var(--text);
+  font-family: "Lato", sans-serif;
+  font-size: 0.875rem;
+}
+
+.author-info a {
+  color: var(--title);
+  font-weight: bold;
+  text-decoration: none;
 }
