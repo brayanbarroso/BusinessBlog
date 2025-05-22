@@ -116,3 +116,17 @@ footer {
   font-weight: bold;
   text-decoration: none;
 }
+
+@media screen and (max-width: 640px) {
+  .container {
+    /* border: 1px solid red; */
+    max-width: 390px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    /* border: 1px solid red; */
+    margin-inline: 16px;
+  }
+}

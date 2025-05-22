@@ -24,11 +24,18 @@ const title = "Business Blog Card";
     <main class="container">
       <section class="card">
         <div class="card-header">
-          <img
-            src="./image/hero-image-1.jpg"
-            alt="Hero Image"
-            class="hero-image"
-          />
+          <picture>
+            <source
+              media="(max-width: 640px)"
+              srcset="./image/hero-image.jpg"
+            />
+            <img
+              src="./image/hero-image-1.jpg"
+              alt="Hero Image"
+              class="hero-image"
+            />
+          </picture>
+
           <div class="card-image">
             <img
               src="./image/white-overlay.svg"
